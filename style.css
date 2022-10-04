@@ -4,24 +4,25 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 .header {
-  
   background: #fff5f0;
-  height:600px;
+  height: 600px;
   padding: 30px 80px 80px 80px;
- 
 }
+
 .nav {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   gap: 55px;
-  
 }
-.nav__leftside{
+
+.nav__leftside {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -31,16 +32,19 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+
 .nav__items {
   display: flex;
   gap: 21px;
 }
+
 .nav__item {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   color: #737373;
 }
+
 .button {
   display: flex;
   align-items: center;
@@ -49,19 +53,22 @@ body {
   line-height: 22px;
   letter-spacing: 0.2px;
   gap: 30px;
-
 }
+
+
 .button__linkgreen {
   color: #1ba0ab;
   font-weight: bold;
 }
+
 .button__linkgreen--border {
   padding: 15px 25px 15px 25px;
   border-radius: 5px;
   border-color: #1ba0ab;
   background-color: transparent;
-  border-color:none;
+  border-color: none;
 }
+
 .button__btn {
   background: #1ba0ab;
   padding: 15px 25px 15px 25px;
@@ -69,90 +76,90 @@ body {
   border-radius: 5px;
   border: none;
 }
+.button__btn--radius {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.button--hero {
+  padding-top: 20px;
+}
 
 .text {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-top: 100px;
-  
 }
+
 .text__title {
   color: #1ba0ab;
   font-weight: 700;
 }
-.text__introduction{
+
+.text__introduction {
   font-size: 40px;
-  font-weight:bold;
+  font-weight: bold;
   line-height: 50px;
-  letter-spacing:0.2px;
-  
+  letter-spacing: 0.2px;
 }
+
 .text__introduction--big {
   color: #252b42;
-   font-size: 58px;
+  font-size: 58px;
   line-height: 80px;
   max-width: 542px;
 }
+
 .text__subintroduction {
- color: #737373;
+  color: #737373;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
- letter-spacing: 0.2px;
- font-style: normal;
-
-}
-.button--hero{
-  padding-top:20px;
+  letter-spacing: 0.2px;
+  font-style: normal;
 }
 
 .main {
-padding: 160px 150px 108px 150px;
+  padding: 160px 150px 108px 150px;
 }
 
 .expert-section {
-  display: flex;;
-  align-items: center;
-  gap:144px;
- justify-content: center;
-  
-  
+  display: flex;
+  gap: 144px;
+  justify-content: center;
 }
+
 .expert-section__image {
   object-fit: cover;
   max-width: 520px;
   max-height: 549px;
 }
 
-
 .text__border {
- height: 7px;
+  height: 7px;
   width: 94px;
-  background-color:#E74040
-  
+  background-color: #e74040;
 }
 
-
-
-.text--right{
- width: 469px;
-  gap:35px;
+.text--right {
+  width: 469px;
+  gap: 35px;
 }
 
 .text--left {
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: flex-start;
   padding-top: 112px;
   max-width: 400px;
-  
 }
+
 .user {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   padding-top: 80px;
   gap: 20px;
 }
+
 .user__card {
   border-radius: 20px;
   background-color: white;
@@ -161,6 +168,7 @@ padding: 160px 150px 108px 150px;
   padding: 0px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+
 .user__desc {
   display: flex;
   justify-content: center;
@@ -171,17 +179,20 @@ padding: 160px 150px 108px 150px;
   padding: 20px 0px 20px 0px;
   font-family: "Montserrat";
 }
+
 .user__image {
   width: 250px;
   height: 231px;
   border-radius: 20px 20px 0px 0px;
 }
+
 .user__name {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
   font-weight: bold;
 }
+
 .user__title {
   font-style: normal;
   font-weight: 400;
@@ -190,17 +201,19 @@ padding: 160px 150px 108px 150px;
   letter-spacing: 0.2px;
   color: #737373;
 }
+
 .user__icons {
   display: flex;
   gap: 15px;
   color: #1ba0ab;
 }
+
 .footer {
   padding: 70px 150px 130px 100px;
   background-color: #fff5f0;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 60px;
@@ -211,6 +224,7 @@ padding: 160px 150px 108px 150px;
   width: 100%;
   justify-content: center;
 }
+
 .footer__input {
   width: 60%;
   border: none;
@@ -220,15 +234,13 @@ padding: 160px 150px 108px 150px;
   padding-left: 20px;
 }
 
-.button__btn--radius {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-}
+
+
 .text--footer-resizing {
   max-width: 469px;
-  gap:30px;
-  
+  gap: 30px;
 }
+
 .nav__menu,
 .nav__person-fill {
   display: none;
@@ -237,85 +249,90 @@ padding: 160px 150px 108px 150px;
 @media (max-width: 700px) {
   .header {
     max-height: 500px;
-   
   }
+
   .nav__items,
   .button--person-fill {
     display: none;
   }
-  .nav__menu{
-    font-size:30px;
+
+  .nav__menu {
+    font-size: 30px;
     display: flex;
   }
-  .nav__person-fill{
-   font-size:30px;
-   display: flex;
+
+  .nav__person-fill {
+    font-size: 30px;
+    display: flex;
   }
+
   .nav__logo {
-    font-size:15px;
+    font-size: 15px;
   }
-  .nav{
+
+  .nav {
     display: flex;
     padding: 20px 30px 30px 30px;
     justify-content: center;
-    align-items:flex-start;
-  
+    align-items: flex-start;
   }
+
   .text {
     align-items: center;
-    padding-top:50px;
-    max-width:500px;
-    
+    padding-top: 50px;
+    max-width: 500px;
   }
-.text--at-hero{
-  justify-content:space-around;
 
-}
-.text--left{
-  align-items: baseline;
- 
-}
-  .text__introduction--big{
-   font-size: 28px;
-  line-height: 30px;
-
+  .text--at-hero {
+    justify-content: space-around;
   }
- 
+
+  .text--left {
+    align-items: baseline;
+  }
+
+  .text__introduction--big {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
   .text__introduction {
     font-size: 20px;
-    gap:3px;
+    gap: 3px;
   }
-  
+
   .button {
     flex-direction: column;
   }
+
   .main {
     padding: 50px 40px 50px 40px;
     justify-items: center;
     justify-content: center;
   }
+
   .expert-section {
     flex-direction: column;
-    align-items:center;
-    gap:10px;
+    align-items: center;
+    gap: 10px;
   }
-  
+
   .expert-section__image {
     max-width: 300px;
     max-height: 309px;
   }
+
   .text--right {
     align-items: baseline;
     width: 250px;
-    gap:10px
+    gap: 10px;
   }
-  
-   
 
   .user {
     overflow-x: scroll;
   }
+
   .footer {
     padding: 50px 50px 50px 50px;
   }
-
+}
