@@ -15,7 +15,8 @@
     <!-- header -->
     <div class="header">
         <div class="nav">
-            <div class="nav__rightside">
+            <div class="nav__menu"><i class="bi bi-list"></i></div>
+            <div class="nav__leftside">
                 <div><h2 class="nav__logo">Medical Core</h2></div>
                 <div class="nav__items">
                     <a class="nav__item">home</a>
@@ -24,18 +25,18 @@
                     <a class="nav__item" alt="">contact</a>
                 </div>
             </div>
-            <div class="button">
+                <div class="button button--person-fill">
                 <a class="button__linkgreen">login</a>
-                <button class="button__btn--primary">Join us <i class="bi bi-arrow-right-short"></i></button>
-            </div>
+                <button class="button__btn">Join us <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+            <div class="nav__person-fill"><i class="bi bi-person-circle"></i></div>
         </div>
-
-        <div class="hero">
-            <p class="hero__title">welcome</p>
-            <h1 class="hero__introduction">A great place to receive care</h1>
-            <p class="hero__subintroduction">Get your best looking fine now</p>
-        <div class="button" >
-        <button class="button__btn--primary">Join us</button>
+        <div class="text text--at-hero">
+            <p class="text__title">welcome</p>
+            <h1 class="text__introduction text__introduction--big">A great place to receive care</h1>
+            <p class="text__subintroduction">Get your best looking fine now</p>
+        <div class="button  button--hero " >
+        <button class="button__btn">Join us</button>
         <button class=" button__linkgreen button__linkgreen--border">Learn more</button>
         </div>
         </div>
@@ -44,29 +45,27 @@
     <!-- main -->
     <main class="main">
 
-    <div class="container">
-        <div >
-            <img class="container__image" src="./img/thumb-concept.png" alt="">
-        </div>
-        <div class=" container__text container__text--big-gap">
-                <div class="container__border"></div>
-                <div  class="container__heading"><h2>Meet our experts</h2></div>
-                <div class="container__paragraph">
-                    <p >Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
-                </div>
+    <div class="expert-section">
+            <img class="expert-section__image" src="./img/thumb-concept.png" alt="">
+            <div class="text  text--right">
+                <div class="text__border"></div>
+                <h2 class="text__introduction ">Meet our experts</h2>
+                <p class="text__subintroduction">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                <div class="button">
                 <a class="button__linkgreen " href="">Learn more<i class="bi bi-chevron-right"></i></a>
-        
+                </div>
+            </div>
         </div>
     </div>
-    <div class="team">
-        <div class="container__text">
-            <p class="container__paragraph--color">team</p>
-            <h2 class="container__heading">Our Team</h2>
-            <p class="container__paragraph2">Problems trying to resolve the conflict between 
+
+      
+     <div class="text text--left">
+            <p class="text__title ">team</p>
+            <h2 class="text__introduction">Our Team</h2>
+            <p class="text__subintroduction">Problems trying to resolve the conflict between 
             the two major realms of Classical physics: Newtonian mechanics </p>
-        </div>
-    </div> 
-    <div class="user">
+            </div>
+    <div class="user">  
         <div class="user__card">
            <div ><img class="user__image" src="./img/fixed-height sec-.png" alt=""></div> 
           <div class="user__desc">
@@ -82,7 +81,7 @@
 
 
         <div class="user__card">
-           <div ><img class="user__image" src="./img/fixed-height sec2.png" alt=""></div> 
+         <div ><img class="user__image" src="./img/fixed-height sec2.png" alt=""></div> 
           <div class="user__desc">
             <div><p class="user__name">Julian Jameson</p></div>
             <div><p class="user__title">Profession</p></div>
@@ -122,20 +121,23 @@
         </div>
         </div>
         </div>
+        </div>
 </main>
     <!--footer  -->
     <footer class="footer">
-        
-        <div class=" container__text contain__text--width">
-            <p class=" container__paragraph container__paragraph--color">newsletter</p>
-            <h2 class="container__heading">JOIN US</h2>
-            <p class="container__paragraph2">Problems trying to resolve the conflict between 
+        <div class=" text  text--footer-resizing">
+            <p class=" text__title ">newsletter</p>
+            <h2 class="text__introduction">JOIN US</h2>
+            <p class="text__subintroduction">Problems trying to resolve the conflict between 
             the two major realms of Classical physics: Newtonian mechanics </p>
         </div>
-        <div> 
+        
         <div class="footer__input-container">
             <input type="email" class="footer__input" placeholder="Your Email">
-            <button class="button__btn--primary button__btn--primary--radius">Subscribe</button>
+            <div class="button">
+                <button class= "button__btn  button__btn--radius">Subscribe</button>
+            </div>
+            
         </div>
     </footer>
 </body>
